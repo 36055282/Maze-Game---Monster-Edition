@@ -17,7 +17,7 @@ Pygame 2.0+
 Pillow (PIL) 8.0+
 安装步骤
 克隆仓库：
-git clone https://github.com/yourusername/maze-game-monster-edition.git
+git clone https://github.com/yourusername/maze-game-monster-edition.git](https://github.com/36055282/Maze-Game---Monster-Edition.git)
 cd maze-game-monster-edition
 安装依赖包：
 pip install -r requirements.txt
