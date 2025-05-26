@@ -54,3 +54,59 @@ Pillow>=8.0.0
 flake8>=3.8.0
 black>=20.8b1# Maze-Game---Monster-Edition
 一款基于python设计的开源迷宫小游戏——怪物版
+Maze Game - Monster Edition
+screenshot.png
+
+A Python maze game with monsters, built using Pygame. Navigate through the maze, avoid monsters, and reach the exit before the AI does in versus mode!
+
+Features
+Randomly generated mazes with multiple paths
+Animated walls and exit (GIF support)
+5 roaming monsters to avoid
+Player lives system (3 lives)
+Invincibility frames after being hit
+Versus AI mode with pathfinding
+Customizable graphics (player, monsters, walls, exit)
+Responsive controls with keyboard support
+Requirements
+Python 3.6+
+Pygame 2.0+
+Pillow (PIL) 8.0+
+Installation
+Clone the repository:
+git clone https://github.com/yourusername/maze-game-monster-edition.git
+cd maze-game-monster-edition
+Install the required packages:
+pip install -r requirements.txt
+How to Play
+Use arrow keys or WASD to move
+Avoid monsters (red circles)
+Reach the green exit to win
+You have 3 lives - monsters take one life when they touch you
+After being hit, you get 2 seconds of invincibility (flashing red)
+Game Modes
+​​Single Player​​: Just you against the maze and monsters
+​​Versus AI​​: Race against an AI to reach the exit first
+Customization
+You can customize the game by adding these image files to the same directory:
+
+player.png - Your character (15x15 recommended)
+monster.png - Monster image (10x10 recommended)
+wall.gif - Animated wall (20x20)
+exit.gif or exit.png - Exit image (20x20)
+menu_image.png - Menu background (200x150 recommended)
+background.png - Game background (800x600)
+Controls
+​​Arrow Keys​​ or ​​WASD​​: Move player
+​​R​​: Restart game
+​​M​​: Return to menu
+​​1/2​​: Select game mode in menu
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+requirements.txt
+pygame>=2.0.0
+Pillow>=8.0.0
+Optional Development Dependencies
+flake8>=3.8.0
+black>=20.8b1
